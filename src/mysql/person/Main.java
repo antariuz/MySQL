@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	Person person = new Person.Builder()
-            .withID("123")
+            .withID(123)
             .withName("Artur")
             .withSurname("King")
             .withAge(66)

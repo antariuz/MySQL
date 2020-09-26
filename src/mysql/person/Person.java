@@ -2,16 +2,16 @@ package mysql.person;
 
 public class Person {
 
-    private String id;
+    private Integer id;
     private String name;
     private String surname;
     private Integer age;
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -46,7 +46,7 @@ public class Person {
             newPerson = new Person();
         }
 
-        public Builder withID(String id) {
+        public Builder withID(Integer id) {
             newPerson.id = id;
             return this;
         }
